@@ -3,8 +3,7 @@ from google import genai
 from dotenv import load_dotenv
 import time
 
-
-
+load_dotenv()
 client = genai.Client()
 # st.title("🌍 Travel Assistant ✈️")
 st.markdown(
@@ -114,7 +113,7 @@ st.markdown(
         <div>
             <div class="badge-full">🌴 Make Your Vacation Special 🥥</div>
             <h1 class="travel-title-full">
-                <span class="travel-icon-full">✈️</span> Travel Assistant
+                <span class="travel-icon-full">✈️</span> Travel Asssistant
             </h1>
             <p class="travel-subtitle-full">
                 Discover hidden paradises, luxury retreats, and epic getaways tailored entirely to you.
