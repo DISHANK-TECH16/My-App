@@ -5,6 +5,11 @@ import time
 
 load_dotenv()
 client = genai.Client()
+st.set_page_config(
+    page_title="Dishank's App",  # Changes the tab name
+    page_icon="🚀",               # Changes the tab emoji/icon
+    layout="wide"                 # Optional: "centered" or "wide"
+)
 # st.title("🌍 Travel Assistant ✈️")
 st.markdown(
     """
